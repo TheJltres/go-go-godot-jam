@@ -2,19 +2,19 @@
 
 [ext_resource type="Texture2D" uid="uid://bqhcpujxlj7qs" path="res://assets/cake_lemon.png" id="1_fipoq"]
 
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_3khtb"]
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_numfk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8742j"]
 size = Vector2(1362.1, 920.268)
 
 [node name="RigidBody2D" type="RigidBody2D"]
 position = Vector2(-41, 274)
-scale = Vector2(0.382497, 0.382497)
-physics_material_override = SubResource("PhysicsMaterial_3khtb")
+physics_material_override = SubResource("PhysicsMaterial_numfk")
 
 [node name="Tarta" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("1_fipoq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-14.3792, -0.00012207)
+scale = Vector2(0.2, 0.2)
 shape = SubResource("RectangleShape2D_8742j")
