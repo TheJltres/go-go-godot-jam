@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://clgcrmywjilu1"]
+
+[ext_resource type="Texture2D" uid="uid://byyvxl0q5rr1w" path="res://assets/mostrador.png" id="1_oq308"]
+[ext_resource type="PackedScene" uid="uid://cx36hdigwe2i1" path="res://scenes/cake.tscn" id="2_rseg6"]
+[ext_resource type="Texture2D" uid="uid://cbhwb31h5u10w" path="res://icon.svg" id="3_pbuld"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ipnbp"]
+size = Vector2(2032.5, 337.5)
+
+[node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+
+[node name="Mostrador" type="Sprite2D" parent="Parallax2D"]
+texture = ExtResource("1_oq308")
+
+[node name="CakeBase" parent="." instance=ExtResource("2_rseg6")]
+position = Vector2(-33, 92)
+
+[node name="Area2D" type="Area2D" parent="."]
+disable_mode = 1
+input_pickable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-14, 451)
+shape = SubResource("RectangleShape2D_ipnbp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+texture = ExtResource("3_pbuld")

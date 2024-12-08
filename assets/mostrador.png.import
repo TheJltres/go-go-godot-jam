@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clrc6i1s0p8ew"
-path="res://.godot/imported/sheet.png-47b8ba1031ae85cf2ced3f99e8de13c3.ctex"
+uid="uid://byyvxl0q5rr1w"
+path="res://.godot/imported/mostrador.png-f90cff0ecf856c2377efce459d8a88ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://placeholders/sheet.png"
-dest_files=["res://.godot/imported/sheet.png-47b8ba1031ae85cf2ced3f99e8de13c3.ctex"]
+source_file="res://assets/mostrador.png"
+dest_files=["res://.godot/imported/mostrador.png-f90cff0ecf856c2377efce459d8a88ad.ctex"]
 
 [params]
 
