@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://h40kj6s0vqd1"]
+
+[ext_resource type="Script" path="res://assets/CakeBlock.gd" id="1_elno8"]
+[ext_resource type="Texture2D" uid="uid://dm33qilmnscdb" path="res://assets/cake_berries.png" id="1_vkvfk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ll11p"]
+size = Vector2(146, 90)
+
+[node name="RigidBody2D" type="RigidBody2D"]
+position = Vector2(126, 76)
+script = ExtResource("1_elno8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(292, 167)
+scale = Vector2(0.111351, 0.114368)
+texture = ExtResource("1_vkvfk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(292, 167)
+shape = SubResource("RectangleShape2D_ll11p")
