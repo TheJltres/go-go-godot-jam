@@ -20,3 +20,4 @@ position = Vector2( 2.66971, 5.33937 )
 shape = SubResource( 1 )
 
 [node name="Tween" type="Tween" parent="."]
+playback_process_mode = 0
