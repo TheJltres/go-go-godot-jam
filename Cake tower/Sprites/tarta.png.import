@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tarta.png-8acd8f661cdd4f9f6e3ff71c1581d34c.stex"
+path="res://.import/tarta.png-7b4c1d65ce42307933f9ea9c1e05d879.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tarta.png"
-dest_files=[ "res://.import/tarta.png-8acd8f661cdd4f9f6e3ff71c1581d34c.stex" ]
+source_file="res://Sprites/tarta.png"
+dest_files=[ "res://.import/tarta.png-7b4c1d65ce42307933f9ea9c1e05d879.stex" ]
 
 [params]
 
